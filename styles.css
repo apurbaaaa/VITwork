@@ -1,0 +1,175 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px; /* Adjusted to avoid overlap with fixed navbar */ 
+}
+
+/* Style the navigation bar */
+nav {
+    background-color: black; /* Purple background */
+    color: #fff;
+    padding: 10px 20px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: center; /* Centers nav items */
+    font-family: "Courier New", Courier, monospace  ;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    width: 100%; /* Full width of nav */
+    max-width: 960px; /* Max width of content */
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px; /* Space between menu items */
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Centralize content */
+div, #about, #contact, #projects, #career {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; /* Center text */
+    width: 100%;
+    max-width: 960px; /* Adjust based on your layout's maximum width */
+    margin: 20px; /* Adds spacing around sections */
+}
+
+/* Contact Section Styling */
+#contact {
+    padding: 20px;
+    background-color: #6D2932; /* Purple background */
+    color: #fff; /* White text color for contrast */
+}
+
+/* Style inputs and textarea */
+#contactForm input[type="text"],
+#contactForm input[type="email"],
+#contactForm textarea {
+    width: 100%;
+    max-width: 500px; /* Control max width to centralize form fields */
+    padding: 12px 20px;
+    margin: 8px auto; /* Centering form elements */
+    display: block; /* Makes it easier to center */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#contactForm textarea {
+    height: 150px;
+    resize: vertical;
+}
+
+/* Style the submit button */
+#contactForm button[type="submit"] {
+    width: 100%;
+    max-width: 500px; /* Match input width */
+    background-color: #FFD700; /* Gold background */
+    color: #333; /* Dark text for better visibility */
+    padding: 14px 20px;
+    margin: 8px auto; /* Center button */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#contactForm button[type="submit"]:hover {
+    background-color: #c5a804; /* Darker shade of gold on hover */
+}
+
+/* Response message styling */
+#formResponse {
+    color: #FFD700; /* Green text for success messages */
+    margin-top: 15px;
+}
+
+/* Add your existing styles here */
+
+/* Side navigation styles */
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #561C24;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    font-family: "Courier New", Courier, monospace  ;
+}
+
+.sidenav a {
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #FFD700;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#main {
+
+
+    transition: margin-left .5s; /* Smooth transition for main content */
+    padding: 20px;
+    margin-left: 0; /* Ensure this is set to enable smooth transition */
+}
+
+
+.image-river-container {
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+  }
+  
+  .image-river {
+    display: inline-block;
+    animation: slide 20s linear infinite;
+    /* Adjust the animation duration to control the speed */
+  }
+  
+  .image-river img {
+    display: inline-block;
+    width: auto; /* Adjust based on your preference */
+    height: 200px; /* Adjust based on your preference */
+    margin-right: 10px;
+  }
+  
+  @keyframes slide {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(calc(-250px * 15)); } /* N = number of images */
+  }
+  
+  
+  
+  
+  

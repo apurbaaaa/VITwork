@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Profile using HTML, CSS and JS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body>
+
+
+<!-- Top Nav -->
+<nav id="navbar">
+    <ul>
+        <li><a href="javascript:void(0);" onclick="toggleNav()">&#9776;</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#career">Career</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#hobbies">Hobbies</a></li>
+        <li><a href="#contact">Contact</a></li>
+        
+    </ul>
+</nav>
+<div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="https://www.instagram.com/apurbbaaaaa/" target="_blank"><i class="fab fa-instagram"></i> @apurbbaaaaa</a>
+    <a href="https://www.instagram.com/8848pixels/" target="_blank"><i class="fab fa-instagram"></i> @8848pixels</a>
+    <a href="https://wa.me/+91 72759 38414" target="_blank"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+    <a href="https://discord.com/users/699953887905316897" target="_blank"><i class="fab fa-discord"></i> Discord</a>
+    <a href="mailto:apurbakoirala33@gmail.com"><i class="fa fa-envelope"></i> Email</a>
+    <a href="https://open.spotify.com/user/kuevyvjonp3ffbhx28vh9c7xr?si=b01e9f6510a84dea" target="_blank"><i class="fab fa-spotify"></i> Spotify</a>
+</div>
+
+<div id="main">
+
+
+    <div id="about" class="about-container">
+        <div class="about-text">
+            <h1>About Me</h1>
+            <p>Hello! I'm Apurba, a passionate technologist and creative thinker fascinated by the intersection of technology and art. With a background in computer science and a keen interest in photography, I strive to bring a unique perspective to everything I do.</p>
+            <p>From developing innovative software solutions to capturing the world through my lens, I am always on the lookout for new challenges that push the boundaries of what's possible.</p>
+        </div>
+        <div class="about-image">
+            <img src="prof.jpeg" alt="Picture of the owner of this website" height="300" width="300">
+        </div>
+    </div>
+
+    <div id="career" class="career-container">
+        <h1>Career</h1>
+        <p>Section content...</p>
+    </div>
+
+
+</div>
+
+    <div id="projects">
+        <h1>Projects</h1><br>
+        <h2>Book Chapter</h2>
+        <h4>Federated learning for Secure Smart Cities using IoT. </h4>
+        <button id="openPdfBtn">View Bookchapter</button>
+        <p>Published in: BLOCKCHAIN ENABLED SECURE BIG DATA COMPUTING FOR SMART CITIES USING INTERNET OF THINGS by Nova Science Publisher</p>
+    </div>
+
+    <div id="hobbies">
+        <h1>Hobbies</h1>
+        <div class="image-river-container">
+            <div class="image-river">
+                <img src="image1.jpg">
+                <img src="image2.jpg">
+                <img src="image3.jpg">
+                <img src="image4.jpg">
+                <img src="Image5.jpg">
+                <img src="image6.jpg">
+                <img src="image7.jpg">
+                <img src="image8.jpg">
+                <img src="image9.jpg">
+                <img src="image10.jpg">
+                <img src="image11.jpg">
+                <img src="image12.jpg">
+                <img src="image13.jpg">
+                <img src="image14.jpg">
+                <img src="image15.jpg">
+            </div>
+        </div>
+    </div>
+    
+
+    <div id="contact">
+        <h1>Contact</h1>
+        <form id="contactForm">
+            <input type="text" id="name" name="name" placeholder="Your name" required><br>
+            <input type="email" id="email" name="email" placeholder="Your email" required><br>
+            <textarea id="message" name="message" placeholder="Your message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+        <p id="formResponse"></p>
+    </div>
+    <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+    <div class="elfsight-app-d4f95085-d421-4765-beef-b943b0288ea0" data-elfsight-app-lazy></div>
+
+<script src="script.js"></script>
+</body>
+</html>
