@@ -1,0 +1,11 @@
+html{
+    color: white;
+    background-color: black;
+    border-top-style: dotted ;
+    border-color: aliceblue;
+    border-width: 5px;
+    border-left-style: dashed;
+    border-right-style: double;
+    border-bottom-style:inset;
+    border-radius: 25px;
+}
