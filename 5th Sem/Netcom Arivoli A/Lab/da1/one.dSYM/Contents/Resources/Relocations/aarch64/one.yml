@@ -1,0 +1,12 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/apurbakoirala/Documents/DAs 5th sem/Netcom/Lab/one'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _reverse, symObjAddr: 0x0, symBinAddr: 0x100003548, symSize: 0xA4 }
+  - { offsetInCU: 0x46, offset: 0x46, size: 0x8, addend: 0x0, symName: _reverse, symObjAddr: 0x0, symBinAddr: 0x100003548, symSize: 0xA4 }
+  - { offsetInCU: 0xB0, offset: 0xB0, size: 0x8, addend: 0x0, symName: _setRedundantBits, symObjAddr: 0xA4, symBinAddr: 0x1000035EC, symSize: 0x168 }
+  - { offsetInCU: 0x136, offset: 0x136, size: 0x8, addend: 0x0, symName: _showMsg, symObjAddr: 0x20C, symBinAddr: 0x100003754, symSize: 0xA0 }
+  - { offsetInCU: 0x176, offset: 0x176, size: 0x8, addend: 0x0, symName: _flipBit, symObjAddr: 0x2AC, symBinAddr: 0x1000037F4, symSize: 0x140 }
+  - { offsetInCU: 0x1C4, offset: 0x1C4, size: 0x8, addend: 0x0, symName: _receiver, symObjAddr: 0x3EC, symBinAddr: 0x100003934, symSize: 0x2F8 }
+  - { offsetInCU: 0x29E, offset: 0x29E, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x6E4, symBinAddr: 0x100003C2C, symSize: 0x21C }
+...

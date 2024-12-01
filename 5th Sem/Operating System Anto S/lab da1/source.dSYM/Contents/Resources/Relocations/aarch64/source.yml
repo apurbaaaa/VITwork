@@ -1,0 +1,17 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/apurbakoirala/Documents/DAs 5th sem/Operating System/source'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _sortByBurstTime, symObjAddr: 0x0, symBinAddr: 0x100002F64, symSize: 0x14C }
+  - { offsetInCU: 0x41, offset: 0x41, size: 0x8, addend: 0x0, symName: _sortByBurstTime, symObjAddr: 0x0, symBinAddr: 0x100002F64, symSize: 0x14C }
+  - { offsetInCU: 0xC7, offset: 0xC7, size: 0x8, addend: 0x0, symName: _sortByPriority, symObjAddr: 0x14C, symBinAddr: 0x1000030B0, symSize: 0x14C }
+  - { offsetInCU: 0x14D, offset: 0x14D, size: 0x8, addend: 0x0, symName: _calculateWaitTime, symObjAddr: 0x298, symBinAddr: 0x1000031FC, symSize: 0xA0 }
+  - { offsetInCU: 0x19B, offset: 0x19B, size: 0x8, addend: 0x0, symName: _calculateTurnaroundTime, symObjAddr: 0x338, symBinAddr: 0x10000329C, symSize: 0x8C }
+  - { offsetInCU: 0x1E9, offset: 0x1E9, size: 0x8, addend: 0x0, symName: _firstComeFirstServe, symObjAddr: 0x3C4, symBinAddr: 0x100003328, symSize: 0x38 }
+  - { offsetInCU: 0x21B, offset: 0x21B, size: 0x8, addend: 0x0, symName: _shortestJobFirst, symObjAddr: 0x3FC, symBinAddr: 0x100003360, symSize: 0x44 }
+  - { offsetInCU: 0x24D, offset: 0x24D, size: 0x8, addend: 0x0, symName: _priorityScheduling, symObjAddr: 0x440, symBinAddr: 0x1000033A4, symSize: 0x44 }
+  - { offsetInCU: 0x27F, offset: 0x27F, size: 0x8, addend: 0x0, symName: _roundRobin, symObjAddr: 0x484, symBinAddr: 0x1000033E8, symSize: 0x240 }
+  - { offsetInCU: 0x33C, offset: 0x33C, size: 0x8, addend: 0x0, symName: _shortestRemainingTimeFirst, symObjAddr: 0x6C4, symBinAddr: 0x100003628, symSize: 0x344 }
+  - { offsetInCU: 0x417, offset: 0x417, size: 0x8, addend: 0x0, symName: _displayResults, symObjAddr: 0xA08, symBinAddr: 0x10000396C, symSize: 0xE0 }
+  - { offsetInCU: 0x465, offset: 0x465, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0xAE8, symBinAddr: 0x100003A4C, symSize: 0x3C8 }
+...

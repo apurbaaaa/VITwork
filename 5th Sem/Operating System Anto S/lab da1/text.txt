@@ -1,0 +1,8 @@
+Hello My name is Apurba
+What is your name?
+exit
+How are you doing
+Hello World
+My name is Apurba
+I study in VIT Vellore
+Who are you
