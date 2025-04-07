@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/apurbakoirala/Documents/VITwork/6th Sem/Design and Analysis of Algorithms Iyappan/Lab/Assesment4",
+      "program": "/Users/apurbakoirala/Documents/VITwork/6th Sem/Design and Analysis of Algorithms Iyappan/Lab/Assesment4/build/Debug/outDebug"
+    }
+  ]
+}
